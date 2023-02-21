@@ -25,7 +25,7 @@ const CastSlide = ({ casts }) => {
             <Link to={routesGen.person(cast.id)}>
               <Box sx={{
                 paddingTop: "120%",
-                color: "text.contrastText",
+                color: "primary.contrastText",
                 ...uiConfigs.style.backgroundImage(tmdbConfigs.posterPath(cast.profile_path))
               }}>
                 <Box sx={{
